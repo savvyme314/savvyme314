@@ -8,4 +8,5 @@ here is my contact information
 - phone
 - address
 
-![yes](http://www.killingmycareer.com/wp-content/uploads/2014/07/sunshine-500536_600x4001.jpg)
+![alt](http://www.killingmycareer.com/wp-content/uploads/2014/07/sunshine-500536_600x4001.jpg)
+!   
