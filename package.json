@@ -1,0 +1,24 @@
+{
+  "name": "sonniedwards",
+  "version": "1.0.0",
+  "description": "I am here to learn and have an awesome good time.\r _hopefully..._\r here is my contact information\r - phone\r - address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savvyme314/savvyme314.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savvyme314/savvyme314/issues"
+  },
+  "homepage": "https://github.com/savvyme314/savvyme314#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "parcel-bundler": "^1.10.3"
+  }
+}
