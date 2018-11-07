@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: verdana;
+  color: aqua;
+}
+
+p {
+  color: green;
+}
+
+.big {
+  font-size: 300%;
+}
+
+#primary {
+  text-align: center;
+  font-family: 'Times New Roman';
+}
+
+.important {
+  color: orange;
+}
+#navigation {
+  background-color: brown;
+  padding: 50px
+}
+#header{
+  background-color: blueviolet;
+}
+
+  img {
+    display: block;
+    margin: 1em auto
+    max-width: 300px
+    width: 80%
+    
+}
+
+.container {
+  margin: 0 auto
+}
