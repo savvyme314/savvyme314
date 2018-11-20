@@ -100,10 +100,10 @@
                 }
             }
         ],
-        "linebreak-style": [
+        "linebreak-style": 
             "error",
             "unix"
-        ],
+        ,
         "lines-around-comment": "off",
         "max-depth": "error",
         "max-len": "off",
@@ -243,7 +243,7 @@
         "sort-imports": "off",
         "sort-vars": "error",
         "space-before-blocks": [
-            "error",
+            "off",
             "never"
         ],
         "space-before-function-paren": [
