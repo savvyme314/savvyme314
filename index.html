@@ -1,66 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio Page!</title>
+  <title>SonChara's Savvy Coder Website</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <h1>Yasssssssss</h1>
-  <header class="site-header">
-    <div>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-
+  <div id="navigation">
+    <ul class="container">
+      <li>
+        <a href="./blog">blog</a>
+      </li>
+      <li>
+        <a href="./contact">contact</a>
+      </li>
+      <li>
+        <a href="./projects">projects</a>
+        <ul class="dropdown">
+          <li>first</li>
+          <li>second</li>
+          <li>third</li>
+        </ul>
+      </li>
+      <li>fourth</li>
+      <li>fifth</li>
+      <li>sixth</li>
+    </ul>
+  </div>
+  <div id="header">
+    <div class="container">
+      <h1>Welcome to my Savvy Coders Portfolio Project</h1>
+      <h2>My name is SonChara D. Edwards</h2>
     </div>
-
-  </header>
-
-  <main>
-    <h2>Im learning to build an Awesomely awesome Website!!!</h2>
-    <p>რა არის Lorem Ipsum?
-      Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა,
-      როდესაც
-      უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. მისი ტექსტი არამარტო 5 საუკუნის მანძილზე
-      შემორჩა, არამედ მან დღემდე, ელექტრონული ტიპოგრაფიის დრომდეც უცვლელად მოაღწია. განსაკუთრებული პოპულარობა მას
-      1960-იან წლებში გამოსულმა Letraset-ის ცნობილმა ტრაფარეტებმა მოუტანა, უფრო მოგვიანებით კი — Aldus PageMaker-ის
-      ტიპის საგამომცემლო პროგრამებმა, რომლებშიც Lorem Ipsum-ის სხვადასხვა ვერსიები იყო ჩაშენებული.</p>
-  </main>
-  <footer class="site-header">
-    <p>
-      &copy;2018
-    </p>
-    <img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/16142278_1372525949480200_4185041436671886268_n.jpg?_nc_cat=105&_nc_ht=scontent-ort2-1.xx&oh=2473ffa2fb2c1ae6f5704e6b8c64405c&oe=5C67C997"
-      alt="Author in colorful artistic photo" width="500" height="600">
-  </footer>
-
-
-
+  </div>
+  <div id="content">
+    <div class="container">
+      <p>I study HTML, CSS, and JavaScript with Savvy Coders St. Louis. I think web development is the best.</p>
+    </div>
+  </div>
+  <div id="footer">
+    <div class="container">
+      <h3>Contact Information</h3>
+      <ul>
+        <li class="emphasis">
+          <i class="fab fa-github"></i>
+          GitHub: <a href="https://github.com/savvyme314">savvyme314</a>
+        </li>
+        <li>
+          <i class="fas fa-paper-plane"></i>
+          EMail: <a href="son.e@cheerful.com">son.e@cheerful.com</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="root"></div>
+  <script src="./index.js"></script>
 </body>
-<script>
-  var username = prompt('What is your Name?');
-  var greet = function () {
-
-    if (username === '') {
-      username = prompt('what is your name foreal this time?')
-
-      greet();
-    } else {
-      alert('hello' + username);
-    }
-  }
-</script>
 
 </html>
